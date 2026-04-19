@@ -17,7 +17,7 @@ variable k8s_cluster_name {
 }
 
 variable aws_region {
-  default = "ap-southeast-7"
+  default = "ap-southeast-1"
 }
 
 variable aws_access_key_id {}
