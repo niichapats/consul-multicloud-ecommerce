@@ -9,7 +9,7 @@ variable public_subnet_cidr_blocks {
 }
 
 variable k8s_version {
-    default = "1.27"
+    default = "1.32"
 }
 
 variable k8s_cluster_name {
@@ -17,7 +17,7 @@ variable k8s_cluster_name {
 }
 
 variable aws_region {
-  default = "eu-central-1"
+  default = "ap-southeast-7"
 }
 
 variable aws_access_key_id {}
